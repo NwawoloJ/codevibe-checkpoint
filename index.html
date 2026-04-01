@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Product Gallery</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="topbar">
+      <h1>Featured Products</h1>
+      <button id="themeToggle" class="theme-toggle" aria-label="Toggle theme">
+        <span class="theme-label">🌙 Dark</span>
+      </button>
+    </header>
+
+    <main class="gallery" id="gallery">
+      <article class="card fade-in" style="--delay: 0ms">
+        <img
+          src="https://images.unsplash.com/photo-1518443895471-9274f7fa6f8f?auto=format&fit=crop&w=800&q=80"
+          alt="Wireless headphones"
+        />
+        <div class="card-content">
+          <h2>Pulse Headphones</h2>
+          <p>Immersive sound with active noise cancellation and 30-hour battery life.</p>
+          <span class="price">$129</span>
+        </div>
+      </article>
+
+      <article class="card fade-in" style="--delay: 150ms">
+        <img
+          src="https://images.unsplash.com/photo-1511707171634-5f897ff02aa9?auto=format&fit=crop&w=800&q=80"
+          alt="Smartphone"
+        />
+        <div class="card-content">
+          <h2>Nova Phone X</h2>
+          <p>Stunning OLED display, pro camera system, and all-day performance.</p>
+          <span class="price">$799</span>
+        </div>
+      </article>
+
+      <article class="card fade-in" style="--delay: 300ms">
+        <img
+          src="https://images.unsplash.com/photo-1546868871-7041f2a55e12?auto=format&fit=crop&w=800&q=80"
+          alt="Smartwatch"
+        />
+        <div class="card-content">
+          <h2>Aero Watch</h2>
+          <p>Track fitness, monitor heart rate, and stay connected on the go.</p>
+          <span class="price">$249</span>
+        </div>
+      </article>
+    </main>
+
+    <script src="script.js"></script>
+  </body>
+</html>
